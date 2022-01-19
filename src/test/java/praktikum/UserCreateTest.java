@@ -31,17 +31,9 @@ public class UserCreateTest {
     public void userCanBeCreatedTest() {        //создать уникального пользователя;
         ValidatableResponse response = userClient.create(user);
 
-        System.out.println(user.email);
-        System.out.println(user.password);
-        System.out.println(user.name);
-
-        boolean isUserCreated = response.extract().path("success");
-        System.out.println(isUserCreated);
-
         int statusCode = response.extract().statusCode();
         System.out.println(statusCode);
 
-        assertTrue("User was not created", isUserCreated);
         assertThat("Bad Status Code", statusCode, equalTo(200));
     }
 
