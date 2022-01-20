@@ -43,7 +43,8 @@ public class User {
     }
 
     public static User getWithEmailNameOnly() {
-        return new User().setEmailName(RandomStringUtils.randomAlphabetic(5)+"@"+RandomStringUtils.randomAlphabetic(5)+".ru", RandomStringUtils.randomAlphabetic(10));
+        String randomEmail = RandomStringUtils.randomAlphabetic(5)+"@"+RandomStringUtils.randomAlphabetic(5)+".ru";
+        return new User().setEmailName(randomEmail, RandomStringUtils.randomAlphabetic(10));
     }
 
 
@@ -57,5 +58,15 @@ public class User {
         return new User().setPassName(RandomStringUtils.randomAlphabetic(6), RandomStringUtils.randomAlphabetic(10));
     }
 
+
+    public User changeEmail(String email, String password, String name) {
+        this.email = email;
+        this.password = password;
+        this.name = name;
+        return this;
+    }
+    public static User getUserWithNewEmail() {
+        return new User().changeEmail("newEmail@yandex.ru", RandomStringUtils.randomAlphabetic(6), RandomStringUtils.randomAlphabetic(10));
+    }
 
 }

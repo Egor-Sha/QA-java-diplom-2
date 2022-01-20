@@ -38,10 +38,10 @@ public class UserLoginTest {
         ValidatableResponse response = userClient.loginToEnter(UserCredentials.from(user));
 
         boolean isFalse = response.extract().path("success");
-        assertEquals("Courier ID was not created", false, isFalse);
+        assertEquals("Comparing with database doesn't work", false, isFalse);
 
         String errorMessage = response.extract().path("message");
-        assertThat("The same courier was not created", errorMessage, equalTo("email or password are incorrect"));
+        assertThat("Comparing with database doesn't work", errorMessage, equalTo("email or password are incorrect"));
     }
 
 

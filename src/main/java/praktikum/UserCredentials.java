@@ -13,5 +13,4 @@ public class UserCredentials {
     public static UserCredentials from(User user) {
         return new UserCredentials(user.email, user.password);}
 
-
 }

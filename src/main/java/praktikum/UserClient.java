@@ -9,7 +9,7 @@ public class UserClient extends RestAssuredClient {
 
     private static final String USER_PATH = "api/auth";
 
-    @Step
+    @Step       //названия для степов чтобы норм отображалось в аллюре
     public ValidatableResponse create(User user) {
         return given()
                 .spec(getBaseSpec())
@@ -29,6 +29,31 @@ public class UserClient extends RestAssuredClient {
                 .then();
     }
 
+    @Step
+    public ValidatableResponse dataUpdate(UserCredentials credentials) {
+        return given()
+                .spec(getBaseSpec())
+                .body(credentials)
+                .when()
+                .patch(USER_PATH + "/user")
+                .then();
+    }
+
+    @Step
+    public ValidatableResponse dataUpdateAuth(UserCredentialsAll credentials, String token) {
+        return given()
+                .spec(getBaseSpec())
+                .auth().oauth2(token)
+                .and()
+                .body(credentials)
+                .when()
+                .patch(USER_PATH + "/user")
+                .then();
+    }
+
+
+
+
     /*
     @Step
     public ValidatableResponse delete(int userId) {
@@ -38,8 +63,6 @@ public class UserClient extends RestAssuredClient {
                 .delete(USER_PATH + userId)
                 .then();
     }*/
-
-
 
 
 
