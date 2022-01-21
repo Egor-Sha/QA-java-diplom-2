@@ -49,6 +49,9 @@ public class UserCredentialsChangeTest {
 
         ValidatableResponse response = userClient.dataUpdateAuth(new UserCredentialsAll(updEmail+user.email, updPassword+user.password, updName+user.name),accessToken);
 
+        //ValidatableResponse newResponse = userClient.dataReceive(accessToken);
+        //System.out.println(newResponse.extract().statusCode());
+
         int statusCode = response.extract().statusCode();
         assertEquals("Auth checking doesn't work", expectedStatus, statusCode);
     }

@@ -1,4 +1,4 @@
-package praktikum;
+/*package praktikum;
 
 import io.restassured.response.ValidatableResponse;
 import org.apache.commons.lang3.StringUtils;
@@ -9,7 +9,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 
-public class UserDataChangeTest {
+public class UserDataChangeTest {       //ЭТО НУЖНО УДАЛИТЬ
 
     private User user;
     private UserClient userClient;
@@ -56,3 +56,4 @@ public class UserDataChangeTest {
     }
 
 }
+*/

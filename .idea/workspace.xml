@@ -6,14 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a86fb7fd-7a6e-42e2-a72a-cd83129552fa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/praktikum/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/praktikum/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/praktikum/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/praktikum/UserClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/praktikum/UserCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/praktikum/UserCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/praktikum/UserCredentialsChangeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/praktikum/UserCredentialsChangeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/praktikum/UserDataChangeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/praktikum/UserDataChangeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/praktikum/UserLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/praktikum/UserLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/praktikum/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/praktikum/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/praktikum/UserClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/praktikum/UserClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/praktikum/UserLoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/praktikum/UserLoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/praktikum/UserCredentialsChangeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/praktikum/UserCredentialsChangeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/praktikum/UserDataChangeTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +49,75 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Sprint_3/pom.xml" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
-  <component name="RunManager" selected="JUnit.UserCredentialsChangeTest">
+  <component name="RunManager" selected="JUnit.OrdersByUserTest">
+    <configuration name="OrdersAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="praktikum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="praktikum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="praktikum" />
+      <option name="MAIN_CLASS_NAME" value="praktikum.OrdersAllTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrdersByUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="praktikum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="praktikum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="praktikum" />
+      <option name="MAIN_CLASS_NAME" value="praktikum.OrdersByUserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrdersByUserTest.checkOrdersByUserWithoutAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="praktikum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="praktikum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="praktikum" />
+      <option name="MAIN_CLASS_NAME" value="praktikum.OrdersByUserTest" />
+      <option name="METHOD_NAME" value="checkOrdersByUserWithoutAuth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrdersByUserTest.getOrdersByUserWithAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="praktikum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="praktikum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="praktikum" />
+      <option name="MAIN_CLASS_NAME" value="praktikum.OrdersByUserTest" />
+      <option name="METHOD_NAME" value="getOrdersByUserWithAuth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserCredentialsChangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="praktikum" />
       <extension name="coverage">
@@ -73,76 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserCredentialsChangeTest.userCannotBeCreatedWithoutFieldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="praktikum" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="praktikum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="praktikum" />
-      <option name="MAIN_CLASS_NAME" value="praktikum.UserCredentialsChangeTest" />
-      <option name="METHOD_NAME" value="userCannotBeCreatedWithoutFieldTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDataChangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="praktikum" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="praktikum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="praktikum" />
-      <option name="MAIN_CLASS_NAME" value="praktikum.UserDataChangeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDataChangeTest.correctUpdateDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="praktikum" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="praktikum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="praktikum" />
-      <option name="MAIN_CLASS_NAME" value="praktikum.UserDataChangeTest" />
-      <option name="METHOD_NAME" value="correctUpdateDataTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDataChangeTest.incorrectUpdateDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="praktikum" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="praktikum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="praktikum" />
-      <option name="MAIN_CLASS_NAME" value="praktikum.UserDataChangeTest" />
-      <option name="METHOD_NAME" value="incorrectUpdateDataTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrdersByUserTest" />
+        <item itemvalue="JUnit.OrdersByUserTest.getOrdersByUserWithAuth" />
+        <item itemvalue="JUnit.OrdersByUserTest.checkOrdersByUserWithoutAuth" />
+        <item itemvalue="JUnit.OrdersAllTest" />
         <item itemvalue="JUnit.UserCredentialsChangeTest" />
-        <item itemvalue="JUnit.UserCredentialsChangeTest.userCannotBeCreatedWithoutFieldTest" />
-        <item itemvalue="JUnit.UserDataChangeTest" />
-        <item itemvalue="JUnit.UserDataChangeTest.incorrectUpdateDataTest" />
-        <item itemvalue="JUnit.UserDataChangeTest.correctUpdateDataTest" />
       </list>
     </recent_temporary>
   </component>
