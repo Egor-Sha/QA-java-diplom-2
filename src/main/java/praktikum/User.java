@@ -25,7 +25,6 @@ public class User {
         return new User(email, password, name);
     }
 
-
     public User setEmailPass(String email, String password) {
         this.email = email;
         this.password = password;
@@ -65,8 +64,4 @@ public class User {
         this.name = name;
         return this;
     }
-    public static User getUserWithNewEmail() {
-        return new User().changeEmail("newEmail@yandex.ru", RandomStringUtils.randomAlphabetic(6), RandomStringUtils.randomAlphabetic(10));
-    }
-
 }

@@ -5,13 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a86fb7fd-7a6e-42e2-a72a-cd83129552fa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/QA-java-diplom-2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/praktikum/OrdersClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/praktikum/OrdersClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/praktikum/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/praktikum/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/praktikum/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/praktikum/UserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/praktikum/UserCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/praktikum/UserCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/praktikum/OrdersAllTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/praktikum/OrdersByUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/praktikum/OrdersByUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/praktikum/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/praktikum/UserCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/praktikum/UserCreateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/praktikum/UserCreateValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/praktikum/UserCreateValidationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/praktikum/UserCredentialsChangeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/praktikum/UserCredentialsChangeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/praktikum/UserDataChangeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/praktikum/UserDataChangeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/praktikum/UserClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/praktikum/UserClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/praktikum/UserDataChangeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/praktikum/UserLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/praktikum/UserLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/praktikum/OrdersClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/praktikum/OrdersClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/praktikum/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/praktikum/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependencies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependency-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/plugin-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugin-management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/praktikum/OrdersAllTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/praktikum/OrdersByUserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/praktikum/OrdersByUserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/praktikum/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/praktikum/UserCreateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/praktikum/UserCreateTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/praktikum/UserCreateValidationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/praktikum/UserCreateValidationTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/praktikum/UserCredentialsChangeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/praktikum/UserCredentialsChangeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/praktikum/UserDataChangeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/praktikum/UserLoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/praktikum/UserLoginTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,15 +74,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Sprint_3/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
-  <component name="RunManager" selected="JUnit.OrdersByUserTest">
-    <configuration name="OrdersAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="praktikum" />
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn verify" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.OrderCreateTest">
+    <configuration name="OrderCreateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-java-diplom-2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="praktikum.*" />
@@ -65,14 +95,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="praktikum" />
-      <option name="MAIN_CLASS_NAME" value="praktikum.OrdersAllTest" />
+      <option name="MAIN_CLASS_NAME" value="praktikum.OrderCreateTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdersByUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="praktikum" />
+    <configuration name="OrderCreateTest.orderCreateWithDifAuthAndHashParametersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-java-diplom-2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="praktikum.*" />
@@ -80,46 +110,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="praktikum" />
-      <option name="MAIN_CLASS_NAME" value="praktikum.OrdersByUserTest" />
+      <option name="MAIN_CLASS_NAME" value="praktikum.OrderCreateTest" />
+      <option name="METHOD_NAME" value="orderCreateWithDifAuthAndHashParametersTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserCreateValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-java-diplom-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="praktikum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="praktikum" />
+      <option name="MAIN_CLASS_NAME" value="praktikum.UserCreateValidationTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrdersByUserTest.checkOrdersByUserWithoutAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="praktikum" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="praktikum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="praktikum" />
-      <option name="MAIN_CLASS_NAME" value="praktikum.OrdersByUserTest" />
-      <option name="METHOD_NAME" value="checkOrdersByUserWithoutAuth" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrdersByUserTest.getOrdersByUserWithAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="praktikum" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="praktikum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="praktikum" />
-      <option name="MAIN_CLASS_NAME" value="praktikum.OrdersByUserTest" />
-      <option name="METHOD_NAME" value="getOrdersByUserWithAuth" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="UserCredentialsChangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="praktikum" />
+      <module name="QA-java-diplom-2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="praktikum.*" />
@@ -133,13 +147,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-java-diplom-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="praktikum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="praktikum" />
+      <option name="MAIN_CLASS_NAME" value="praktikum.UserLoginTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrdersByUserTest" />
-        <item itemvalue="JUnit.OrdersByUserTest.getOrdersByUserWithAuth" />
-        <item itemvalue="JUnit.OrdersByUserTest.checkOrdersByUserWithoutAuth" />
-        <item itemvalue="JUnit.OrdersAllTest" />
+        <item itemvalue="JUnit.OrderCreateTest" />
+        <item itemvalue="JUnit.OrderCreateTest.orderCreateWithDifAuthAndHashParametersTest" />
+        <item itemvalue="JUnit.UserLoginTest" />
         <item itemvalue="JUnit.UserCredentialsChangeTest" />
+        <item itemvalue="JUnit.UserCreateValidationTest" />
       </list>
     </recent_temporary>
   </component>

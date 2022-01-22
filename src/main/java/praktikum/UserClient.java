@@ -51,19 +51,4 @@ public class UserClient extends RestAssuredClient {
                 .then();
     }
 
-
-
-
-    /*
-    @Step
-    public ValidatableResponse delete(int userId) {
-        return given()
-                .spec(getBaseSpec())
-                .when()
-                .delete(USER_PATH + userId)
-                .then();
-    }*/
-
-
-
 }

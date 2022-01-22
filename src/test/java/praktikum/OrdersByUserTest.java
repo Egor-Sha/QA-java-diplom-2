@@ -15,16 +15,13 @@ public class OrdersByUserTest {
 
     private User user;
     private UserClient userClient;
+    private String accessToken;
 
     @Before
     public void setUp() {
         user = User.getRandom();
         userClient = new UserClient();
     }
-
-    //@After
-    //public void tearDown() {
-    //    courierClient.delete(courierId);    }
 
     @Test
     public void getOrdersByUserWithAuth() {
@@ -34,7 +31,7 @@ public class OrdersByUserTest {
         String accessToken = userClient.loginToEnter(UserCredentials.from(user)).extract().path("accessToken");
         accessToken = StringUtils.remove(accessToken, "Bearer ");
 
-        ValidatableResponse response = listOrders.list(accessToken);
+        ValidatableResponse response = listOrders.ordersList(accessToken);
 
         int statusCode = response.extract().statusCode();
         assertEquals("You don't have the list of the orders", 200, statusCode);
@@ -46,17 +43,15 @@ public class OrdersByUserTest {
 
     @Test
     public void getOrdersByUserWithoutAuth() {
+
         OrdersClient listOrders = new OrdersClient();
         userClient.create(user);
-
         userClient.loginToEnter(UserCredentials.from(user));
         String accessToken = "";
 
-        ValidatableResponse response = listOrders.list(accessToken);
+        ValidatableResponse response = listOrders.ordersList(accessToken);
 
         int statusCode = response.extract().statusCode();
         assertEquals("Auth checking doesn't work", 401, statusCode);
-
     }
-
 }
