@@ -27,7 +27,7 @@ public class UserCreateValidationTest {
         };
     }
     @Test
-    public void userCannotBeCreatedWithoutFieldTest() {        //создать пользователя и не заполнить одно из обязательных полей, проверяю без
+    public void userCannotBeCreatedWithoutFieldTest() {
 
         ValidatableResponse response = new UserClient().create(user);
 

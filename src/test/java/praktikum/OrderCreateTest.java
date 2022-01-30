@@ -38,7 +38,7 @@ public class OrderCreateTest {
     }
 
     @Test
-    public void orderCreateWithDifAuthAndHashParametersTest() {        //создать уникального пользователя;
+    public void orderCreateWithDifAuthAndHashParametersTest() {
 
         User user = User.getRandom();
         UserClient userClient = new UserClient();
@@ -59,12 +59,10 @@ public class OrderCreateTest {
 
         int statusCode = response.extract().statusCode();
         assertThat("Bad Status Code", statusCode, equalTo(statusCodeExpected));
-        System.out.println(statusCode);
 
         if (statusCode == 200 || statusCode == 400) {
             boolean isOrderCreatedActual = response.extract().path("success");
             assertEquals("Order wasn't created", isOrderCreatedActual, isOrderCreatedExpected);
-            System.out.println(isOrderCreatedActual);
         }
     }
 }

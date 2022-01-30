@@ -19,7 +19,7 @@ public class UserCreateTest {
     }
 
     @Test
-    public void userCanBeCreatedTest() {        //создать уникального пользователя;
+    public void userCanBeCreatedTest() {
         ValidatableResponse response = userClient.create(user);
 
         int statusCode = response.extract().statusCode();
@@ -27,7 +27,7 @@ public class UserCreateTest {
     }
 
     @Test
-    public void theSameUserCannotBeCreatedTest() {        //создать пользователя, который уже зарегистрирован;
+    public void theSameUserCannotBeCreatedTest() {
 
         userClient.create(user);
 

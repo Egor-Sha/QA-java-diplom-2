@@ -20,7 +20,7 @@ public class UserLoginTest {
     }
 
     @Test
-    public void correctLoginTest() {        //логин под существующим пользователем
+    public void correctLoginTest() {
         userClient.create(user);
 
         boolean isSuccess = userClient.loginToEnter(UserCredentials.from(user)).extract().path("success");
@@ -29,7 +29,7 @@ public class UserLoginTest {
     }
 
     @Test
-    public void incorrectLoginTest() {        //логин с неверным логином и паролем
+    public void incorrectLoginTest() {
         ValidatableResponse response = userClient.loginToEnter(UserCredentials.from(user));
 
         boolean isFalse = response.extract().path("success");
