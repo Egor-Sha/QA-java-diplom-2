@@ -2,6 +2,7 @@ package praktikum;
 
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
+import org.junit.jupiter.api.DisplayName;
 
 import static io.restassured.RestAssured.given;
 
@@ -9,7 +10,8 @@ public class UserClient extends RestAssuredClient {
 
     private static final String USER_PATH = "api/auth";
 
-    @Step       //!!названия для степов чтобы норм отображалось в аллюре
+    @Step
+    @DisplayName("Create User")
     public ValidatableResponse create(User user) {
         return given()
                 .spec(getBaseSpec())
@@ -20,6 +22,7 @@ public class UserClient extends RestAssuredClient {
     }
 
     @Step
+    @DisplayName("User login")
     public ValidatableResponse loginToEnter(UserCredentials credentials) {
         return given()
                 .spec(getBaseSpec())
@@ -30,6 +33,7 @@ public class UserClient extends RestAssuredClient {
     }
 
     @Step
+    @DisplayName("Get user data by token")
     public ValidatableResponse dataReceive(String token) {
         return given()
                 .spec(getBaseSpec())
@@ -40,6 +44,7 @@ public class UserClient extends RestAssuredClient {
     }
 
     @Step
+    @DisplayName("Update user data")
     public ValidatableResponse dataUpdateAuth(UserCredentialsAll credentials, String token) {
         return given()
                 .spec(getBaseSpec())
